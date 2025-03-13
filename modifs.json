@@ -1,0 +1,287 @@
+{
+  "description": "Hungarian programming",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "x",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "3",
+          "modifiers": ["shift", "option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "c",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "1",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "v",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "q",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "q",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "hyphen",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "b",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "7",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "n",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "0",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "grave_accent_and_tilde",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "z",
+          "modifiers": ["option", "shift"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "z",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "x",
+          "modifiers": ["option", "shift"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "slash",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "comma",
+          "modifiers": ["option", "shift"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "f",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "8",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "g",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "9",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "semicolon",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "4",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "1",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "close_bracket",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "3",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "quote",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "7",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "backslash",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "n",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "0",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "w",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "grave_accent_and_tilde",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "comma",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "period",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "non_us_backslash",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "close_bracket",
+          "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "_additional": "I changed 3 useless mac function buttons to actual f buttons (e.g. f12) for programming. In addition to this, you might need to swap 0 and í in simple modifications (in case of an external keyboard.",
+      "manipulators": [
+        {
+          "from": { "key_code": "f6" },
+          "to": [
+            {
+              "key_code": "f12",
+              "modifiers": ["fn"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": { "key_code": "f4" },
+          "to": [
+            {
+              "key_code": "f9",
+              "modifiers": ["shift", "fn"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": { "key_code": "f5" },
+          "to": [
+            {
+              "key_code": "r",
+              "modifiers": ["command"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
