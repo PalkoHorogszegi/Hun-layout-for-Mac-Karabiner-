@@ -197,13 +197,53 @@
       "type": "basic"
     },
     {
+      "from": { "key_code": "f3" },
+      "to": [
+        {
+          "key_code": "r",
+          "modifiers": ["command"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": { "key_code": "f4" },
+      "to": [
+        {
+          "key_code": "f12",
+          "modifiers": ["fn"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": { "key_code": "f6" },
+      "to": [
+        {
+          "key_code": "4",
+          "modifiers": ["command", "control", "shift"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": { "key_code": "f5" },
+      "to": [
+        {
+          "key_code": "d",
+          "modifiers": ["command"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
       "from": {
-        "key_code": "n",
+        "key_code": "comma",
         "modifiers": { "mandatory": ["option"] }
       },
       "to": [
         {
-          "key_code": "0",
+          "key_code": "period",
           "modifiers": ["option"]
         }
       ],
@@ -224,19 +264,6 @@
     },
     {
       "from": {
-        "key_code": "comma",
-        "modifiers": { "mandatory": ["option"] }
-      },
-      "to": [
-        {
-          "key_code": "period",
-          "modifiers": ["option"]
-        }
-      ],
-      "type": "basic"
-    },
-    {
-      "from": {
         "key_code": "non_us_backslash",
         "modifiers": { "mandatory": ["option"] }
       },
@@ -249,39 +276,32 @@
       "type": "basic"
     },
     {
-      "_additional": "I changed 3 useless mac function buttons to actual f buttons (e.g. f12) for programming. In addition to this, you might need to swap 0 and í in simple modifications (in case of an external keyboard.",
-      "manipulators": [
+      "from": {
+        "key_code": "d",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
         {
-          "from": { "key_code": "f6" },
-          "to": [
-            {
-              "key_code": "f12",
-              "modifiers": ["fn"]
-            }
-          ],
-          "type": "basic"
+          "key_code": "a",
+          "modifiers": ["option"]
         },
         {
-          "from": { "key_code": "f4" },
-          "to": [
-            {
-              "key_code": "f9",
-              "modifiers": ["shift", "fn"]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": { "key_code": "f5" },
-          "to": [
-            {
-              "key_code": "r",
-              "modifiers": ["command"]
-            }
-          ],
-          "type": "basic"
+          "key_code": "s",
+          "modifiers": ["option"]
         }
-      ]
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "9",
+        "modifiers": { "mandatory": ["left_option"] }
+      },
+      "to": {
+        "key_code": "c",
+        "modifiers": ["command", "shift"]
+      },
+      "type": "basic"
     }
   ]
 }
